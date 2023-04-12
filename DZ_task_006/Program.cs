@@ -7,9 +7,9 @@ int a = 5;
 
 if (a % 2 == 0)
 {
-    Console.WriteLine("Четное");
+    Console.WriteLine($" {a} -> Четное");
 }
 else
 {
-    Console.WriteLine("Нечетное");
+    Console.WriteLine($" {a} -> Нечетное");
 }
