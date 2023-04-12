@@ -10,8 +10,6 @@ int max = a;
 
 if (b > max) max = b;
 {
-    Console.Write("Большее число = ");
-    Console.WriteLine(max);
+    Console.WriteLine($"Большее число -> {max} ");
 }
-    
 
